@@ -78,7 +78,8 @@ body {
 .booking-box select {
   padding: 10px;
   width: 150px;
-margin: 0
+margin: 0;
+gap: 0px;
 }
 .top-tabs {
   display: flex;
@@ -176,10 +177,9 @@ margin: 0
   text-align: center;
   padding: 15px;
 }
-select{
-  appearance: none;
-  -webkit-appearance: none;
-}
+
+
+
 
 
 
