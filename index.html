@@ -6,10 +6,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- 🔷 TOP BLUE BAR -->
+<div class="topbar">
+  
+  <div class="left-info">
+    <span>📞 +91 9999999999</span>
+    <span>📧 contact@trainlogo.com</span>
+  </div>
+
+  <div class="right-auth">
+    <button onclick="login()">Login</button>
+    <button onclick="signup()">Sign Up</button>
+  </div>
+
+</div>
+  <div class="topbar">
+    <div class="left info">
+      <span></span>
+    </div>
+  </div>
 
 <!-- Navbar -->
 <nav class="navbar">
-  <h2>TrainLogo</h2>
+  <img src="logo.png"
+  class="logo-png">
+ 
   <div>
     <a href="#">Home</a>
     <a href="#">About</a>
@@ -21,6 +42,13 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="booking-box">
+       <div class="top-tabs">
+      <button class="tab active">🚆 BOOK TRAIN TICKETS</button>
+      <button class="tab">📄 CHECK PNR STATUS</button>
+      <button class="tab">📍 LIVE TRAIN STATUS</button>
+    </div>
+
+  <div class="input-box">
     <input type="text" placeholder="From">
     <input type="text" placeholder="To">
     <input type="date">
@@ -35,7 +63,8 @@
 
 <!-- Blog -->
 <section class="container">
-  <h2>Read the latest from blog</h2>
+  <h2>Read the latest from blog</h2> <br>
+ <p>contrary to popular belief</p>
 
   <div class="cards">
     <div class="card">
@@ -74,6 +103,41 @@
         Read More
       </p>
     </div>
+    <div class="card">
+      <img src="https://wallpaperaccess.com/full/296525.jpg">
+       <div class="card-top ">
+        <span class="category">Sea Travel</span>
+        <span class="date">07/30/2022</span>
+       </div>
+      <h4>The day on Paris</h4>
+      <br>
+      <p>From the iconic to the unexpected, the city of San Francisco never ceases to never ceases to...<br>
+        Read More</p>
+    </div>
+    
+    <div class="card">
+      <img src="https://images6.alphacoders.com/130/thumb-1920-1303882.jpeg">
+       <div class="card-top ">
+        <span class="category">Sea Travel</span>
+        <span class="date">07/30/2022</span>
+       </div>
+      <h4>The day on Paris</h4>
+      <br>
+      <p>From the iconic to the unexpected, the city of San Francisco never ceases to never ceases to...<br>
+        Read More</p>
+    </div>
+     <div class="card">
+      <img src="https://h2.gifposter.com/bingImages/ReopeningNotreDame_1920x1080.jpg">
+       <div class="card-top ">
+        <span class="category">Sea Travel</span>
+        <span class="date">07/30/2022</span>
+       </div>
+      <h4>The day on Paris</h4>
+      <br>
+      <p>From the iconic to the unexpected, the city of San Francisco never ceases to never ceases to...<br>
+        Read More</p>
+    </div>
+  
   </div>
 </section>
 
@@ -84,6 +148,7 @@
     <input type="email" placeholder="Your Email">
     <button>Subscribe</button>
   </div>
+  
 </section>
 
 <!-- Footer -->
